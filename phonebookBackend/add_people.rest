@@ -1,0 +1,30 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "jerry seinfeld",
+  "number": "348-345-5555"
+}
+
+###
+
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "jerry seinfeld"
+}
+
+###
+
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "number": "348-345-5555"
+}
+
+
+###
