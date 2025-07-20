@@ -1,0 +1,22 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "added with rest client",
+  "number": "123-123-123"
+}
+
+###
+
+DELETE  http://localhost:3001/api/persons/687cff78e663a69d0a627f3d
+
+
+###
+
+PUT http://localhost:3001/api/persons/687a66f2cbe394400db0d050
+Content-Type: application/json
+
+{
+  "name": "Dave from rest client",
+  "number": "999-9999"
+}
